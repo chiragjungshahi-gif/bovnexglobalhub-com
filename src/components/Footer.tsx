@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { LinkedinIcon, FacebookIcon, InstagramIcon, TwitterIcon } from "lucide-react";
+import { Globe, Send, AtSign, MessageCircle } from "lucide-react";
 import { Logo } from "./Logo";
 
 const services = [
@@ -25,7 +25,7 @@ export function Footer() {
               We handle your operations so you can focus on growth.
             </p>
             <div className="flex gap-3 mt-6">
-              {[LinkedinIcon, FacebookIcon, InstagramIcon, TwitterIcon].map((Icon, i) => (
+              {[Globe, AtSign, MessageCircle, Send].map((Icon, i) => (
                 <a
                   key={i}
                   href="#"
