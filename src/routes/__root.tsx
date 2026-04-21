@@ -15,7 +15,7 @@ export const Route = createRootRoute({
         content:
           "Bovnex Global Hub is Nepal's emerging BPO & Virtual Assistant company helping US, UK and Australian businesses save 10–20 hours every week.",
       },
-      { property: "og:title", content: "Bovnex Global Hub — People Behind Every Process" },
+      { property: "og:title", content: "Bovnex Global Hub — BPO & Virtual Assistant Services from Nepal" },
       {
         property: "og:description",
         content:
@@ -23,6 +23,12 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Bovnex Global Hub — BPO & Virtual Assistant Services from Nepal" },
+      { name: "description", content: "Bovnex Hub offers comprehensive BPO and Virtual Assistant services for businesses seeking efficient outsourcing solutions." },
+      { property: "og:description", content: "Bovnex Hub offers comprehensive BPO and Virtual Assistant services for businesses seeking efficient outsourcing solutions." },
+      { name: "twitter:description", content: "Bovnex Hub offers comprehensive BPO and Virtual Assistant services for businesses seeking efficient outsourcing solutions." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/26f6cc0f-5468-4d2f-aecf-8d0d9013abd6/id-preview-b2f627ba--9ecd6bad-3b6f-436b-a830-869d943bd329.lovable.app-1776754842248.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/26f6cc0f-5468-4d2f-aecf-8d0d9013abd6/id-preview-b2f627ba--9ecd6bad-3b6f-436b-a830-869d943bd329.lovable.app-1776754842248.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
