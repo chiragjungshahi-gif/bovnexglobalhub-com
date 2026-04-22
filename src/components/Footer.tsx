@@ -72,8 +72,8 @@ export function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm text-foreground/75">
               <li>Kathmandu, Nepal</li>
-              <li>info@bovnexglobalhub.com</li>
-              <li>+977-XXXXXXXXX</li>
+              <li>bovnex@gmail.com</li>
+              <li>+977-9813086002</li>
               <li className="pt-3">
                 <span className="text-xs uppercase tracking-widest text-muted-foreground block mb-2">Legal</span>
                 <a href="#" className="block hover:text-navy">Privacy Policy</a>
