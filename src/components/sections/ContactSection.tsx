@@ -48,8 +48,8 @@ export function ContactSection() {
           <ul className="mt-10 space-y-5 text-sm">
             {[
               { Icon: MapPin, t: "Kathmandu, Nepal" },
-              { Icon: Mail, t: "info@bovnexglobalhub.com" },
-              { Icon: Phone, t: "+977-XXXXXXXXX" },
+              { Icon: Mail, t: "bovnex@gmail.com" },
+              { Icon: Phone, t: "+977-9813086002" },
               { Icon: Globe, t: "www.bovnexglobalhub.com" },
             ].map(({ Icon, t }) => (
               <li key={t} className="flex items-center gap-4">
