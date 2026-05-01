@@ -36,7 +36,7 @@ export function Testimonials() {
           {items.map((t) => (
             <figure
               key={t.name}
-              className="p-8 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur"
+              className="p-8 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur flex flex-col h-full"
             >
               <div className="flex gap-1 text-gold" aria-label="5 out of 5 stars">
                 {Array.from({ length: 5 }).map((_, i) => (
@@ -45,7 +45,7 @@ export function Testimonials() {
                   </svg>
                 ))}
               </div>
-              <blockquote className="mt-3 text-white/85 leading-relaxed">{t.quote}</blockquote>
+              <blockquote className="mt-3 text-white/85 leading-relaxed flex-1">{t.quote}</blockquote>
               <figcaption className="mt-8 pt-6 border-t border-white/10">
                 <div className="font-medium text-white">{t.name}</div>
                 <div className="text-xs text-white/60 mt-0.5">{t.role} · {t.country}</div>
