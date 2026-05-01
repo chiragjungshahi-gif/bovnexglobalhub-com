@@ -38,7 +38,13 @@ export function Testimonials() {
               key={t.name}
               className="p-8 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur"
             >
-              <div className="text-gold text-3xl font-serif leading-none">"</div>
+              <div className="flex gap-1 text-gold" aria-label="5 out of 5 stars">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <svg key={i} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+                    <path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                ))}
+              </div>
               <blockquote className="mt-3 text-white/85 leading-relaxed">{t.quote}</blockquote>
               <figcaption className="mt-8 pt-6 border-t border-white/10">
                 <div className="font-medium text-white">{t.name}</div>
